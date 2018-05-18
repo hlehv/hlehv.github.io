@@ -2,6 +2,7 @@ body{
 font-family: 'Josefin Slab', serif;
 }
 
+
 .header{
 	padding: 80px;
 	text-align: center;
@@ -21,6 +22,10 @@ font-family: 'Josefin Slab', serif;
 	color: #95C0EC;
 }
 	
+
+
+
+
 
 .navbar{
 	overflow: hidden;
