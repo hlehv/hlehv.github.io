@@ -1,12 +1,12 @@
 body{
-font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Slab', serif;
 }
 
 .header{
 	padding: 80px;
 	text-align: center;
 	color: #071342;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Josefin Slab', serif;
 }
 
 .header h1 a{
@@ -32,6 +32,7 @@ font-family: 'Dosis', sans-serif;
 	padding: 14px 20px;
 	text-decoration: none;
 	color: #0c4561;
+	font-size: 20px
 }
 
 .navbar a.right{
