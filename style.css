@@ -1,50 +1,152 @@
 body{
-font-family: 'Josefin Slab', serif;
+	font-family: 'Josefin Slab', serif;
 }
 
 
 .header{
-	padding: 80px;
-	text-align: center;
-	color: #071342;
-	font-family: 'Josefin Slab', serif;
+padding: 80px;
+		 text-align: center;
+color: #071342;
+	   font-family: 'Josefin Slab', serif;
 }
 
 .header h1 a{
 	font-size: 50px;
 	text-decoration: none;
-	color: #071342;
+	color: #365278;
+	margin-top: 25px;
+	text-align: center;
 
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
 }
 
 .header h1 a:hover{
-	opacity: .6;
-	color: #95C0EC;
+opacity: .6;
+color: #95C0EC;
 }
-	
 
 
+.p1{
 
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #365278;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
+}
+
+.p2{
+
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #365278;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
+}
+
+.p1:hover{
+opacity: .6;
+color: #95C0EC;
+}
+
+.p2:hover{
+opacity: .6;
+color: #95C0EC;
+}
 
 
 .navbar{
-	overflow: hidden;
+overflow: hidden;
 }
 .navbar a{
-	float: left;
-	display: block;
-	text-align: center;
-	padding: 14px 20px;
-	text-decoration: none;
-	color: #0c4561;
-	font-size: 20px
+float: left;
+display: block;
+		 text-align: center;
+padding: 14px 20px;
+		 text-decoration: none;
+		 color: #365278;
+	   font-size: 20px;
 }
 
 .navbar a.right{
-	float: right;
+float: right;
 }
 
 .navbar a:hover{
-	color: #95C0EC;
+color: #95C0EC;
 }
+
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+
+.list1{
+	text-align: center;
+	font-size: 25px;
+	color: #0c4561;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
+
+}
+
+.list2{
+	text-align: center;
+	font-size: 25px;
+	color: #0c4561;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
+}
+
+
+
+
 
