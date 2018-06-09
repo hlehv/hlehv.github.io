@@ -4,10 +4,10 @@ body{
 
 
 .header{
-padding: 80px;
-		 text-align: center;
-color: #071342;
-	   font-family: 'Josefin Slab', serif;
+	padding: 80px;
+	text-align: center;
+	color: #071342;
+	font-family: 'Josefin Slab', serif;
 }
 
 .header h1 a{
@@ -73,13 +73,13 @@ color: #95C0EC;
 overflow: hidden;
 }
 .navbar a{
-float: left;
-display: block;
-		 text-align: center;
-padding: 14px 20px;
-		 text-decoration: none;
-		 color: #365278;
-	   font-size: 20px;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	color: #365278;
+	font-size: 20px;
 }
 
 .navbar a.right{
