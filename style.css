@@ -34,8 +34,9 @@ color: #95C0EC;
 
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 	color: #365278;
+	font-weight: 1000;
 
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2s; /* Firefox < 16 */
@@ -48,8 +49,9 @@ color: #95C0EC;
 
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Josefin Slab', sans-serif;
 	color: #365278;
+	font-weight: 1000;
 
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2s; /* Firefox < 16 */
